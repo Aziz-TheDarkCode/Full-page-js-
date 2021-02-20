@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-x: hidden;
+  background-color: #0f1123;
+  color: white;
+  transition: 0.8s ease-in;
+  margin: 0 auto;
+}
+.lg-mode {
+  background-color: white;
+  color: #0f1123;
+}
+.icon {
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+.inactive {
+  display: none;
+}
+
+.sky {
+  height: 90vh;
+  display: flex;
+  padding: 1.3rem;
+  width: 100vw;
+}
+.section-description {
+  margin: auto;
+}
+h2:nth-child(1) {
+  text-align: center;
+}
+.panel {
+  width: 10vw;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10rem;
+  height: 100%;
+  margin: auto;
+  margin-right: 1rem;
+  padding: 01rem;
+  transition: 0.9s all ease-in-out;
+}
+.panel:nth-child(1) {
+  background-image: url("http://dose.ca/wp-content/uploads/2013/10/breaking-bad.jpg");
+}
+.panel:nth-child(2) {
+  background-image: url("https://image.downhdwalls.com/wallpapers/spiderman-far-fromhome-character-poster-444567.jpg");
+}
+.panel:nth-child(3) {
+  background-image: url("https://updatefreak.com/wp-content/uploads/2020/02/Top-Superhero-Movies-Of-All-Time-Avengers-Endgame.jpg");
+}
+.panel:nth-child(4) {
+  background-image: url("https://cdn.episode.ninja/file/episodeninja/show/327417.jpg");
+}
+.panel:nth-child(5) {
+  background-image: url("https://ofopinions.files.wordpress.com/2015/06/theblacklist.jpg");
+}
+.active {
+  width: 75rem;
+  border-radius: 05rem;
+}
+.extending-card {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 04rem;
+}
+section h1 {
+  margin-top: 3rem;
+  padding: 1.2rem;
+}
+
+section img {
+  width: 20rem;
+}
+.p-text {
+  opacity: 0;
+  transform: translateX(-1000px);
+  transition: 2s all ease-in-out;
+}
+.active-text {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.spa {
+  height: 100vh;
+}
+.spa nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  font-size: 1.3rem;
+  padding: 1.3rem;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: 0.3s all ease-in;
+  position: relative;
+  justify-content: space-around;
+  width: 07rem;
+}
+.nav-items:hover {
+  opacity: 1;
+}
+.spa-container {
+  width: 300vw;
+  display: flex;
+  transition: 0.3s ease-out;
+}
+.block {
+  width: 100vw;
+  height: 90vh;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+.section-title {
+  font-size: 3.5rem;
+}
